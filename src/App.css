@@ -1,0 +1,149 @@
+.App{
+  background-image: linear-gradient( rgba(255, 255, 0, 0.5),rgba(0, 0, 255, 0.5))
+}
+.wrapper {
+  position: relative;
+    height: 94vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("components/images/sunset.gif"); 
+    color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .form-wrapper {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    opacity: 0.8;
+  }
+  .submitForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submitForm button{
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+  .submitForm button:hover {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid #519e8a;
+  }
+.gap{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  columns:  2;
+  column-gap:0px;
+  
+}
+
+.image {
+  height:206px;
+  min-width:308px;
+  border: 1px solid black;
+  position: relative;
+  left:233px;
+}
+  .button {
+  background: #ffffff none repeat scroll 0 0;
+
+      border: 1px solid #aa8d56;
+
+      color: #aa8d56;
+
+      outline: medium none;
+
+      padding: 10px;
+  
+      text-decoration: none;
+}
+
+.button:hover {
+  Background-color:  #aa8d56;
+
+     Color: #ffffff;
+}
+.Cbody:hover{
+  Background-color: #FFF8DC;
+}
+
+.Cbody{
+  background: white;
+  height:206px;
+  border: 1px solid black;
+  box-shadow: 0px 10px 50px #555;
+}
+
+.footer{
+  background-color:#1E90FF;
+  position: fixed;
+  height:50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0px;
+  box-shadow: 0px 10px 50px #555;
+  color: black
+}
+.copyr{
+  text-align: left;
+}
+.info{
+  position: relative;
+  bottom: 20px;
+  text-align: left;
+  
+}
+.Profile{
+  height:85vh;
+  
+}
+.Home{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pcenter{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.layer{
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: #FFD700;
+}
+.homeIMG{
+ width:100%;
+ height:841px;
+}
